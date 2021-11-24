@@ -1,0 +1,238 @@
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 20;
+  }
+
+  .header-row-1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-icons {
+    margin: 30px 50px 0px 50px;
+    width: 30px;
+    height: 30px;
+  }
+  .header-icons:hover {
+    cursor: pointer;
+  }
+  .cart-parent {
+    display: inline;
+
+    padding: 12px;
+    margin: 30px 50px 50px 50px;
+    border-radius: 100px;
+    background-color: rgba(244, 244, 244, 255);
+  }
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 21; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(245, 245, 245); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .sidenav::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .sidenav::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  .sidenav::-webkit-scrollbar-thumb {
+    background: rgb(233, 231, 231);
+    border-radius: 10px;
+  }
+  .closebtn {
+    position: absolute;
+
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+  }
+  .nav-list-item-heading {
+    color: gray;
+    font-size: large;
+  }
+
+  .nav-list-img {
+    width: 40px;
+    height: 45px;
+    margin: 30px;
+  }
+
+  .header-row-2-container {
+    display: flex;
+    justify-content: center;
+  }
+  .search {
+    background-color: rgba(244, 244, 244, 255);
+    padding: 15px 10px 10px 10px;
+
+    border-radius: 30px;
+  }
+  .carsol-images {
+    height: 300px;
+
+    border-radius: 50px;
+  }
+  .carsol-images:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .alpha-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+  .alpha-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+
+  td {
+    border-style: solid;
+    border-color: white;
+    border-top-width: 50px;
+    border-left-width: 30px;
+    border-right-width: 30px;
+  }
+  td:hover {
+    opacity: 0.5;
+  }
+  .novels-text {
+    font-size: 30px;
+    margin: 5% 0px 2% 10%;
+    color: black;
+  }
+  .holder {
+    position: absolute;
+
+    width: max-content;
+    overflow-x: -moz-hidden-unscrollable;
+  }
+  /* */
+  div.scrollmenu {
+    margin: 30px;
+    background-color: white;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+  /* width */
+  div.scrollmenu::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  div.scrollmenu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  div.scrollmenu::-webkit-scrollbar-thumb {
+    background: rgb(233, 231, 231);
+    border-radius: 10px;
+  }
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu a:hover {
+    background-color: white;
+  }
+  .alphadiv {
+    width: 200px;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(240, 240, 240);
+    margin: 30px;
+    border-radius: 40px;
+  }
+  .alpha-normal {
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 20px;
+  }
+
+  .blue {
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0000ff;
+  }
+  .red {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+  }
+  .green {
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(2, 177, 2);
+  }
+  .item-container {
+    display: inline;
+
+    background-color: white;
+  }
+  .item-container:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .item-img {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0px 20px 0px 20px;
+  }
+  .footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .footer-elements {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  .footer-elements:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .bottom-add-space {
+    margin-bottom: 200px;
+  }
+}
